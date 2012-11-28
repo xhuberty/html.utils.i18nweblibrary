@@ -17,5 +17,9 @@
     	"mouf/html.utils.weblibrarymanager": ">=2.0-dev,<3.0",
     	"mouf/utils.i18n.fine": ">=3.0-dev,<4.0"
     },
-    "minimum-stability": "dev"
+     "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    }
 }
