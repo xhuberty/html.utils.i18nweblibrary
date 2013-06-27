@@ -1,6 +1,7 @@
 <?php
 namespace Mouf\Html\Utils\I18nWebLibrary;
 
+use Mouf\Utils\I18n\Fine\Language\LanguageDetectionInterface;
 use Mouf\Html\Utils\WebLibraryManager\WebLibrary;
 use Mouf\Html\Utils\WebLibraryManager;
 /**
