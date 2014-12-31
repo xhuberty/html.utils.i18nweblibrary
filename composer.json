@@ -1,25 +1,28 @@
 {
-    "name": "mouf/html.utils.i18nweblibrary",
-    "description": "This implementation of a Weblibrary will load different JS files based on the current language used. Useful to load translation files in JS.",
-    "keywords": ["html", "utils", "i18n"],
-    "homepage": "http://mouf-php.com/packages/mouf/html.utils.i18nweblibrary",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Négrier",
-            "email": "d.negrier@thecodingmachine.com",
-            "homepage": "http://mouf-php.com"
-        }
-    ],
-    "require": {
-    	"php": ">=5.3.0",
-    	"mouf/html.utils.weblibrarymanager": "~3.0",
-    	"mouf/utils.i18n.fine": "~3.0"
-    },
-     "autoload": {
-        "psr-0": {
-            "Mouf\\Html\\Utils\\I18nWebLibrary": "src/"
-        }
-    }
+	"name" : "mouf/html.utils.i18nweblibrary",
+	"description" : "This implementation of a Weblibrary will load different JS files based on the current language used. Useful to load translation files in JS.",
+	"keywords" : [
+		"html",
+		"utils",
+		"i18n"
+	],
+	"homepage" : "http://mouf-php.com/packages/mouf/html.utils.i18nweblibrary",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "David Négrier",
+			"email" : "d.negrier@thecodingmachine.com",
+			"homepage" : "http://mouf-php.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"mouf/html.utils.weblibrarymanager" : "~3.0",
+		"mouf/utils.i18n.fine" : ">=3.1,<5.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Mouf\\Html\\Utils\\I18nWebLibrary" : "src/"
+		}
+	}
 }

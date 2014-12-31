@@ -4,15 +4,13 @@ namespace Mouf\Html\Utils\I18nWebLibrary;
 use Mouf\Utils\I18n\Fine\Language\LanguageDetectionInterface;
 use Mouf\Html\Utils\WebLibraryManager\WebLibrary;
 use Mouf\Html\Utils\WebLibraryManager;
+
 /**
- * @Component
  * @author Kevin
- *
  */
 class I18nWebLibrary extends WebLibrary{
 	
 	/**
-	 * @Property
 	 * @var LanguageDetectionInterface
 	 */
 	public $languageDetection;
